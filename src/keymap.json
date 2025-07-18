@@ -1,0 +1,20 @@
+[
+  {
+    "context": "",
+    "bindings": {
+      "ctrl-t": "workspace::ToggleBottomDock",
+      "ctrl-shift-t": "terminal_panel::ToggleFocus",
+      "ctrl-shift-b": "project_panel::ToggleFocus",
+      "ctrl-b": "workspace::ToggleLeftDock",
+      "alt-right": "pane::ActivateNextItem",
+      "alt-left": "pane::ActivatePreviousItem",
+      "ctrl-tab": "workspace::ActivateNextPane",
+      "ctrl-up": ["editor::MoveUpByLines", { "lines": 10 }],
+      "ctrl-down": ["editor::MoveDownByLines", { "lines": 10 }],
+      "ctrl-alt-right": "editor::MoveToEndOfLine",
+      "ctrl-alt-left": "editor::MoveToBeginningOfLine",
+      "ctrl-alt-up": "editor::MoveToBeginning",
+      "ctrl-alt-down": "editor::MoveToEnd"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "icon_theme": "Soft Charmed Icons",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "Rosé Pine Moon",
+    "dark": "Rosé Pine Moon"
+  },
+  "format_on_save": "off",
+  "ensure_final_newline_on_save": false,
+  "remove_trailing_whitespace_on_save": false
+}
